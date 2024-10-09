@@ -23,6 +23,7 @@ $$ F = k\cdot \overline{C}$$
 The laplacian is approximated using the 5 point method :
 
 $$\Delta u(x,y) = \frac{4 U_{i,j} - U{i+1, j}- U{i-1, j}- U{i, j+1}- U{i, j-1}}{h^2}$$
+
 where h represent the spatial step.
 
 Likewise, $$\frac{\partial \overline{C}}{\partial t} = \frac{C_{i,j}^{(n+1)} - C_{i,j}^{(n)}}{\Delta t}$$
@@ -31,7 +32,7 @@ Likewise, $$\frac{\partial \overline{C}}{\partial t} = \frac{C_{i,j}^{(n+1)} - C
 
 Several figures and data on the deposited pollutants were obtained, leading to the conclusion that the factories were noxious.
 
-![alt text](https://github.com/MicmacM/Pollution/tree/main/assets/result_simu.gif)
+![alt text](https://github.com/MicmacM/Pollution/raw/main/assets/result_simu.gif)
 
 ## Workspace description
 
